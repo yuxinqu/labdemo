@@ -60,7 +60,6 @@
                 <!-- Desktop Navigation -->
                 <div class="hidden md:flex items-center space-x-8">
                     <a href="#about" class="text-secondary hover:text-primary transition-colors">About</a>
-                    <a href="#research" class="text-secondary hover:text-primary transition-colors">Research</a>
                     <a href="team.html" class="text-secondary hover:text-primary transition-colors">Team</a>
                     <a href="publications.html" class="text-secondary hover:text-primary transition-colors">Publications</a>
                     <a href="contact.html" class="text-secondary hover:text-primary transition-colors">Contact</a>
@@ -79,7 +78,6 @@
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
             <div class="px-2 pt-2 pb-3 space-y-1">
                 <a href="#about" class="block px-3 py-2 text-secondary hover:bg-gray-100 hover:text-primary rounded-md">About</a>
-                <a href="#research" class="block px-3 py-2 text-secondary hover:bg-gray-100 hover:text-primary rounded-md">Research</a>
                 <a href="team.html" class="block px-3 py-2 text-secondary hover:bg-gray-100 hover:text-primary rounded-md">Team</a>
                 <a href="publications.html" class="block px-3 py-2 text-secondary hover:bg-gray-100 hover:text-primary rounded-md">Publications</a>
                 <a href="contact.html" class="block px-3 py-2 text-secondary hover:bg-gray-100 hover:text-primary rounded-md">Contact</a>
@@ -99,8 +97,8 @@
                         Advancing the frontiers of quantum information science through theoretical research and experimental implementations.
                     </p>
                     <div class="flex flex-wrap gap-4">
-                        <a href="#research" class="px-6 py-3 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg">
-                            Explore Research
+                        <a href="#about" class="px-6 py-3 bg-primary text-white rounded-md hover:bg-primary/90 transition-colors shadow-md hover:shadow-lg">
+                            About Us
                         </a>
                         <a href="contact.html" class="px-6 py-3 bg-white text-primary border border-primary rounded-md hover:bg-primary/5 transition-colors">
                             Contact Us
@@ -129,112 +127,55 @@
                 <p class="text-secondary mb-6 text-lg leading-relaxed">
                     We collaborate with academic institutions and industry partners worldwide to accelerate the development and adoption of quantum technologies. Our research focuses on both fundamental science and practical implementations, with the goal of building robust, scalable quantum computing systems.
                 </p>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-                    <div class="bg-light p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <div class="text-primary text-3xl mb-4">
-                            <i class="fa fa-lightbulb-o"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Innovation</h3>
-                        <p class="text-secondary">Pioneering new approaches to quantum computing challenges</p>
-                    </div>
-                    
-                    <div class="bg-light p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <div class="text-primary text-3xl mb-4">
-                            <i class="fa fa-users"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Collaboration</h3>
-                        <p class="text-secondary">Working with leading institutions worldwide</p>
-                    </div>
-                    
-                    <div class="bg-light p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <div class="text-primary text-3xl mb-4">
-                            <i class="fa fa-graduation-cap"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold mb-2">Education</h3>
-                        <p class="text-secondary">Training the next generation of quantum scientists</p>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Research Section -->
-    <section id="research" class="py-16 md:py-24 bg-light">
+    <!-- Research Directions Section -->
+    <section class="py-16 md:py-24 bg-light">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-primary mb-4">Our Research</h2>
-                <div class="w-20 h-1 bg-accent mx-auto mb-6"></div>
-                <p class="text-secondary max-w-2xl mx-auto">
-                    Our research spans multiple areas of quantum information science, with a focus on developing practical quantum technologies.
-                </p>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Research Area 1 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                    <img src="https://picsum.photos/id/2/600/400" alt="Quantum algorithms research visualization" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-primary mb-3">Quantum Algorithms</h3>
-                        <p class="text-secondary mb-4">
-                            Developing novel algorithms that harness quantum advantages for solving complex problems in cryptography, optimization, and machine learning.
-                        </p>
-                        <a href="#" class="text-primary hover:text-primary/80 font-medium inline-flex items-center">
-                            Learn more <i class="fa fa-arrow-right ml-2 text-sm"></i>
-                        </a>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-6">
+                        <i class="fa fa-microchip"></i>
                     </div>
+                    <h3 class="text-xl font-semibold mb-4">Quantum Hardware</h3>
+                    <p class="text-secondary">
+                        Developing next-generation quantum processors with improved coherence times and reduced error rates, focusing on superconducting and trapped ion technologies.
+                    </p>
+                    <a href="publications.html#hardware" class="inline-flex items-center text-primary hover:text-primary/80 font-medium mt-6">
+                        Explore research <i class="fa fa-arrow-right ml-2 text-sm"></i>
+                    </a>
                 </div>
                 
-                <!-- Research Area 2 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                    <img src="https://picsum.photos/id/3/600/400" alt="Quantum hardware components" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-primary mb-3">Quantum Hardware</h3>
-                        <p class="text-secondary mb-4">
-                            Investigating novel approaches to quantum bit design and fabrication, with a focus on improving coherence times and reducing error rates.
-                        </p>
-                        <a href="#" class="text-primary hover:text-primary/80 font-medium inline-flex items-center">
-                            Learn more <i class="fa fa-arrow-right ml-2 text-sm"></i>
-                        </a>
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-6">
+                        <i class="fa fa-code-fork"></i>
                     </div>
+                    <h3 class="text-xl font-semibold mb-4">Quantum Algorithms</h3>
+                    <p class="text-secondary">
+                        Designing novel quantum algorithms for optimization, machine learning, and cryptography that demonstrate significant speedup over classical approaches.
+                    </p>
+                    <a href="publications.html#algorithms" class="inline-flex items-center text-primary hover:text-primary/80 font-medium mt-6">
+                        Explore research <i class="fa fa-arrow-right ml-2 text-sm"></i>
+                    </a>
                 </div>
                 
-                <!-- Research Area 3 -->
-                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                    <img src="https://picsum.photos/id/4/600/400" alt="Quantum error correction illustration" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold text-primary mb-3">Error Correction</h3>
-                        <p class="text-secondary mb-4">
-                            Developing robust error correction schemes to protect quantum information from decoherence and other sources of noise.
-                        </p>
-                        <a href="#" class="text-primary hover:text-primary/80 font-medium inline-flex items-center">
-                            Learn more <i class="fa fa-arrow-right ml-2 text-sm"></i>
-                        </a>
+                <div class="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                    <div class="text-primary text-3xl mb-6">
+                        <i class="fa fa-shield"></i>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Recent Publications Teaser -->
-            <div class="mt-16">
-                <h3 class="text-2xl font-semibold text-primary mb-8 text-center">Recent Research Highlights</h3>
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <span class="text-xs font-semibold text-accent uppercase tracking-wider">Nature Physics, 2023</span>
-                        <h4 class="text-lg font-medium text-primary mt-2 mb-3">Quantum Coherence Enhancement in Silicon Spin Qubits</h4>
-                        <p class="text-secondary text-sm mb-4">Our team demonstrated a 10x improvement in coherence times for silicon spin qubits through novel material engineering.</p>
-                        <a href="publications.html" class="text-primary hover:text-primary/80 text-sm font-medium">View publication</a>
-                    </div>
-                    
-                    <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                        <span class="text-xs font-semibold text-accent uppercase tracking-wider">Science, 2023</span>
-                        <h4 class="text-lg font-medium text-primary mt-2 mb-3">Efficient Quantum Algorithm for Large-scale Optimization</h4>
-                        <p class="text-secondary text-sm mb-4">We developed a new quantum algorithm that solves complex optimization problems exponentially faster than classical methods.</p>
-                        <a href="publications.html" class="text-primary hover:text-primary/80 text-sm font-medium">View publication</a>
-                    </div>
-                </div>
-                <div class="text-center mt-6">
-                    <a href="publications.html" class="inline-flex items-center text-primary hover:text-primary/80 font-medium">
-                        View all publications <i class="fa fa-arrow-right ml-2 text-sm"></i>
+                    <h3 class="text-xl font-semibold mb-4">Quantum Error Correction</h3>
+                    <p class="text-secondary">
+                        Investigating robust error correction schemes and fault-tolerant architectures to protect quantum information from decoherence and environmental noise.
+                    </p>
+                    <a href="publications.html#error-correction" class="inline-flex items-center text-primary hover:text-primary/80 font-medium mt-6">
+                        Explore research <i class="fa fa-arrow-right ml-2 text-sm"></i>
                     </a>
                 </div>
             </div>
@@ -259,7 +200,6 @@
                     <h4 class="text-lg font-medium mb-6">Quick Links</h4>
                     <ul class="space-y-3 text-sm">
                         <li><a href="#about" class="text-white/80 hover:text-white transition-colors">About</a></li>
-                        <li><a href="#research" class="text-white/80 hover:text-white transition-colors">Research</a></li>
                         <li><a href="team.html" class="text-white/80 hover:text-white transition-colors">Team</a></li>
                         <li><a href="publications.html" class="text-white/80 hover:text-white transition-colors">Publications</a></li>
                         <li><a href="contact.html" class="text-white/80 hover:text-white transition-colors">Contact</a></li>
